@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pronounce-generator"
+version = "0.1.0"
+description = ""
+authors = ["Tom Passarelli <tom.passarelli@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "pronounce_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pronouncing = "^0.2.0"
+tqdm = "^4.66.1"
+jellyfish = "^1.0.0"
+nltk = "^3.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
